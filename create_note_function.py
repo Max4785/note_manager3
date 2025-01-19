@@ -2,7 +2,6 @@ from datetime import date
 import re
 
 def creat_note():
-
     global notebook
 
     current_date = date.today() # возвращает сегоднящний день: {date} (datetime.date(2025, 1, 19))
